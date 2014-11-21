@@ -4,11 +4,9 @@ name = "tau"
 version = "0.0.1"
 authors = ["Franklin Chen <franklinchen@franklinchen.com>"]
 description = "The important mathematical constant tau"
+documentation = "http://rust-ci.org/FranklinChen/rust-tau/doc/tau"
 homepage = "https://github.com/FranklinChen/rust-tau"
 repository = "https://github.com/FranklinChen/rust-tau"
 readme = "README.md"
 keywords = ["math", "tau", "pi"]
 license = "MIT"
-
-[lib]
-name = "tau"
