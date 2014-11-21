@@ -1,0 +1,9 @@
+language: rust
+script:
+  - cargo build
+  - cargo test
+notifications:
+  email:
+    recipients:
+      - franklinchen@franklinchen.com
+    on_success: never
