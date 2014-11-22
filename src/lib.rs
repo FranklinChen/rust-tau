@@ -1,16 +1,14 @@
 //! The mathematical constant tau.
 
-use std::num::Float;
+extern crate core;
 
 /// The mathematical constant [tau](http://tauday.com/),
 /// where pi is defined as tau/2.
 ///
+/// We provide it as `f64` for now.
+///
 /// ```rust{.example}
-/// use std::num::Float;
-/// let tau64: f64 = tau::tau();
-/// assert!(tau64/2.0f64 == Float::pi())
+/// assert!(tau::TAU / 2.0 == core::f64::consts::PI);
 /// ```
-#[inline]
-pub fn tau<T: Float>() -> T {
-    Float::two_pi()
-}
+#[unstable = "still waiting for associated constants"]
+pub const TAU: f64 = core::f64::consts::PI_2;
