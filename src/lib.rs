@@ -8,7 +8,7 @@ extern crate core;
 /// We provide it as `f64` for now.
 ///
 /// ```rust{.example}
-/// use std::num::FloatMath;
+/// use std::num::Float;
 /// use tau::TAU;
 /// assert_eq!(TAU.cos(), 1.0);
 /// ```
