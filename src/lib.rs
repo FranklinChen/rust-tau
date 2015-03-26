@@ -1,5 +1,7 @@
 //! The mathematical constant tau.
 
+#![feature(core)]
+
 extern crate core;
 
 /// The mathematical constant [tau](http://tauday.com/),
@@ -8,7 +10,6 @@ extern crate core;
 /// We provide it as `f64` for now.
 ///
 /// ```rust{.example}
-/// use std::num::Float;
 /// use tau::TAU;
 /// assert_eq!(TAU.cos(), 1.0);
 /// ```
