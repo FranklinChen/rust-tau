@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/FranklinChen/rust-tau.png)](https://travis-ci.org/FranklinChen/rust-tau)
 
+[![](http://meritbadge.herokuapp.com/tau)](https://crates.io/crates/tau)
+
 Provide the famous mathematical constant, tau, τ = 6.2831...
 
 You may be familiar with the derived constant, pi, π = τ/2 = 3.1415...
