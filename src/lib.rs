@@ -1,8 +1,7 @@
 //! The mathematical constant tau.
 
-#![feature(core)]
-
-use std::f64::consts::PI_2;
+// Temporarily commented out because unstable.
+//use std::f64::consts::PI_2;
 
 /// The mathematical constant [tau](http://tauday.com/),
 /// where pi is defined as tau/2.
@@ -13,7 +12,9 @@ use std::f64::consts::PI_2;
 /// use tau::TAU;
 /// assert_eq!(TAU.cos(), 1.0);
 /// ```
-pub const TAU: f64 = PI_2;
+pub const TAU: f64 = 6.28318530717958647692528676655900576f64;
+// Temporarily copied from https://doc.rust-lang.org/stable/std/f64/consts/constant.PI_2.html because unsable.
+//pub const TAU: f64 = PI_2;
 
 #[cfg(test)]
 mod test {
