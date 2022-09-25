@@ -9,7 +9,7 @@
 /// use tau::TAU;
 /// assert_eq!(TAU.cos(), 1.0);
 /// ```
-pub const TAU: f64 = 6.28318530717958647692528676655900576_f64;
+pub const TAU: f64 = 6.28318530717958647692528676655900577_f64;
 
 #[cfg(test)]
 mod test {
